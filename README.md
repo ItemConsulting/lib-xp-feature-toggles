@@ -5,6 +5,7 @@ Library for creating _Feature Toggles_, and checking if they have been enabled/d
 that can be used in your application to enable/disable functionality.
 
 [![](https://repo.itemtest.no/api/badge/latest/releases/no/item/lib-xp-feature-toggles)](https://repo.itemtest.no/#/releases/no/item/lib-xp-feature-toggles)
+[![](https://img.shields.io/npm/types/%40item-enonic-types%2Flib-feature-toggles)](https://www.npmjs.com/package/@item-enonic-types/lib-feature-toggles)
 
 ![Icon](docs/icon.svg)
 
@@ -37,7 +38,7 @@ dependencies {
 Install the TypeScript-types with the following command:
 
 ```bash
-npm install --save-dev @item-enonic-types/lib-features-toggles
+npm install -D @item-enonic-types/lib-feature-toggles
 ```
 
 By adding the following changes to your *tsconfig.json* you will get TypeScript-support for this library.

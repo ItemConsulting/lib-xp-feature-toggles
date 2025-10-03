@@ -5,6 +5,9 @@ plugins {
   id "com.github.node-gradle.node" version "7.0.2"
 }
 
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
 dependencies {
   compileOnly "com.enonic.xp:core-api:${xpVersion}"
   implementation "com.enonic.xp:lib-auth:${xpVersion}"
